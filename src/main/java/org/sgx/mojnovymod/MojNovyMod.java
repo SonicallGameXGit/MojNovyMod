@@ -1,6 +1,7 @@
 package org.sgx.mojnovymod;
 
 import net.fabricmc.api.ModInitializer;
+import org.sgx.mojnovymod.block.ModBlocks;
 import org.sgx.mojnovymod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class MojNovyMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.register();
+        ModBlocks.register();
     }
 }

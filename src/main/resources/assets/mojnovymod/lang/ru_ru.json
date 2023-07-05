@@ -1,4 +1,6 @@
 {
+  "block.mojnovymod.new_block": "Новый Блок",
+  "block.mojnovymod.another_block": "Другой Блок",
   "item.mojnovymod.new_item": "Новый Предмет",
   "item.mojnovymod.another_item": "Другой Предмет",
   "itemGroup.mojnovymod.new_group": "Новая Группа",
