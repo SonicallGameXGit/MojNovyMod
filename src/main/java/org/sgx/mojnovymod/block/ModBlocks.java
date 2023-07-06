@@ -10,12 +10,14 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import org.sgx.mojnovymod.MojNovyMod;
+import org.sgx.mojnovymod.block.custom.MagicBlock;
 import org.sgx.mojnovymod.item.ModItemGroups;
 import org.sgx.mojnovymod.item.ModItems;
 
 public class ModBlocks {
     public static final Block NEW_BLOCK = registerBlock("new_block", new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f).requiresTool().luminance(6)), ModItemGroups.NEW_GROUP);
     public static final Block ANOTHER_BLOCK = registerBlock("another_block", new Block(FabricBlockSettings.of(Material.AMETHYST).strength(5.0f).requiresTool().luminance(9)), ModItemGroups.ANOTHER_GROUP);
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block", new MagicBlock(FabricBlockSettings.of(Material.AMETHYST).strength(5.0f).requiresTool().luminance(9)), ModItemGroups.ANOTHER_GROUP);
 
     private static Block registerBlock(String id, Block block) {
         ModItems.registerItem(id, new BlockItem(block, new Item.Settings()));

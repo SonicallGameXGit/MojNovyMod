@@ -1,8 +1,14 @@
 {
   "block.mojnovymod.new_block": "New Block",
   "block.mojnovymod.another_block": "Another Block",
+  "block.mojnovymod.magic_block": "Magic Block",
   "item.mojnovymod.new_item": "New Item",
   "item.mojnovymod.another_item": "Another Item",
+  "item.mojnovymod.magic_stick": "Magic Stick",
+  "item.mojnovymod.new_helmet": "New Helmet",
+  "item.mojnovymod.new_chestplate": "New Chestplate",
+  "item.mojnovymod.new_leggings": "New Leggings",
+  "item.mojnovymod.new_boots": "New Boots",
   "itemGroup.mojnovymod.new_group": "New Group",
   "itemGroup.mojnovymod.another_group": "Another Group"
 }

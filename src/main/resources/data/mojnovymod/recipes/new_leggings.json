@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "#": {
+      "item": "mojnovymod:new_item"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mojnovymod:new_leggings"
+  }
+}

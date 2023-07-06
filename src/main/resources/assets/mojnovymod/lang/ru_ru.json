@@ -1,8 +1,14 @@
 {
   "block.mojnovymod.new_block": "Новый Блок",
   "block.mojnovymod.another_block": "Другой Блок",
+  "block.mojnovymod.magic_block": "Волшебный Блок",
   "item.mojnovymod.new_item": "Новый Предмет",
   "item.mojnovymod.another_item": "Другой Предмет",
+  "item.mojnovymod.magic_stick": "Волшебная Палочка",
+  "item.mojnovymod.new_helmet": "Новый Шлем",
+  "item.mojnovymod.new_chestplate": "Новый Нагрудник",
+  "item.mojnovymod.new_leggings": "Новые Поножи",
+  "item.mojnovymod.new_boots": "Новые Ботинки",
   "itemGroup.mojnovymod.new_group": "Новая Группа",
   "itemGroup.mojnovymod.another_group": "Другая Группа"
 }
