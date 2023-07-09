@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2023-07-09 12:10:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2023-07-09 12:10:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:meadow": "2023-07-09 12:10:52 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

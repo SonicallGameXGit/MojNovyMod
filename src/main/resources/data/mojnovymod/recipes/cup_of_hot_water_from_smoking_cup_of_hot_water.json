@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "cup",
+  "ingredient": {
+    "item": "mojnovymod:cup_of_hot_water"
+  },
+  "result": "mojnovymod:cup_of_hot_water"
+}

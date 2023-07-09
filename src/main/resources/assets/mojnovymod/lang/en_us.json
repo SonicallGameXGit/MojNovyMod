@@ -9,6 +9,14 @@
   "item.mojnovymod.new_chestplate": "New Chestplate",
   "item.mojnovymod.new_leggings": "New Leggings",
   "item.mojnovymod.new_boots": "New Boots",
+  "item.mojnovymod.tea_seeds": "Tea Seeds",
+  "item.mojnovymod.tea": "Tea",
+  "item.mojnovymod.raw_cup": "Raw Cup",
+  "item.mojnovymod.cup": "Cup",
+  "item.mojnovymod.cup_of_water": "Cup Of Water",
+  "item.mojnovymod.cup_of_hot_water": "Cup Of Hot Water",
+  "item.mojnovymod.cup_of_tea": "Cup Of Tea",
   "itemGroup.mojnovymod.new_group": "New Group",
-  "itemGroup.mojnovymod.another_group": "Another Group"
+  "itemGroup.mojnovymod.another_group": "Another Group",
+  "itemGroup.mojnovymod.food_group": "Food Group"
 }

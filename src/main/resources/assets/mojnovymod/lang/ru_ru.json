@@ -9,6 +9,14 @@
   "item.mojnovymod.new_chestplate": "Новый Нагрудник",
   "item.mojnovymod.new_leggings": "Новые Поножи",
   "item.mojnovymod.new_boots": "Новые Ботинки",
+  "item.mojnovymod.tea_seeds": "Семечки Чая",
+  "item.mojnovymod.tea": "Чай",
+  "item.mojnovymod.raw_cup": "Заготовка Чашки",
+  "item.mojnovymod.cup": "Чашка",
+  "item.mojnovymod.cup_of_water": "Чашка Воды",
+  "item.mojnovymod.cup_of_hot_water": "Чашка Горячей Воды",
+  "item.mojnovymod.cup_of_tea": "Чашка Чая",
   "itemGroup.mojnovymod.new_group": "Новая Группа",
-  "itemGroup.mojnovymod.another_group": "Другая Группа"
+  "itemGroup.mojnovymod.another_group": "Другая Группа",
+  "itemGroup.mojnovymod.food_group": "Группа Еды"
 }

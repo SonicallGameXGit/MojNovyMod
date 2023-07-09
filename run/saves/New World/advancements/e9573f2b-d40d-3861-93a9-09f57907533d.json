@@ -1,0 +1,22 @@
+{
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-07-09 13:23:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:meadow": "2023-07-09 13:22:21 +0200",
+      "minecraft:plains": "2023-07-09 13:22:31 +0200"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-07-09 13:22:20 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

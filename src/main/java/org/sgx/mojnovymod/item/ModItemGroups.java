@@ -13,4 +13,7 @@ public class ModItemGroups {
     public static final ItemGroup ANOTHER_GROUP = FabricItemGroup.builder(new Identifier(MojNovyMod.MOD_ID, "another_group"))
             .icon(() -> new ItemStack(ModItems.ANOTHER_ITEM))
             .build();
+    public static final ItemGroup FOOD_GROUP = FabricItemGroup.builder(new Identifier(MojNovyMod.MOD_ID, "food_group"))
+            .icon(() -> new ItemStack(ModItems.TEA))
+            .build();
 }

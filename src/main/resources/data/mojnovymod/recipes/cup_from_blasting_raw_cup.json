@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.7,
+  "group": "cup",
+  "ingredient": {
+    "item": "mojnovymod:raw_cup"
+  },
+  "result": "mojnovymod:cup"
+}
