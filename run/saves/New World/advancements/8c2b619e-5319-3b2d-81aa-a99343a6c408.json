@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2023-07-11 10:01:34 +0200",
+      "minecraft:desert": "2023-07-11 10:00:29 +0200",
+      "minecraft:warm_ocean": "2023-07-11 10:01:46 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

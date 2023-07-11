@@ -2,6 +2,10 @@
   "block.mojnovymod.new_block": "Новый Блок",
   "block.mojnovymod.another_block": "Другой Блок",
   "block.mojnovymod.magic_block": "Волшебный Блок",
+  "block.mojnovymod.ominan_ore": "Оминовая Руда",
+  "block.mojnovymod.deepslate_ominan_ore": "Оминоносная Сланцевая Руда",
+  "block.mojnovymod.nether_ominan_ore": "Незерская Оминовая Руда",
+  "block.mojnovymod.end_ominan_ore": "Оминовая Руда Края",
   "item.mojnovymod.new_item": "Новый Предмет",
   "item.mojnovymod.another_item": "Другой Предмет",
   "item.mojnovymod.magic_stick": "Волшебная Палочка",
@@ -16,7 +20,15 @@
   "item.mojnovymod.cup_of_water": "Чашка Воды",
   "item.mojnovymod.cup_of_hot_water": "Чашка Горячей Воды",
   "item.mojnovymod.cup_of_tea": "Чашка Чая",
+  "item.mojnovymod.omin": "Омин",
+  "item.mojnovymod.ominan_music_disc": "Оминовая Музыкальная Пластинка",
+  "item.mojnovymod.omin.desc": "Осколок Оминовой Музыкальной Пластинки",
+  "item.mojnovymod.ominan_music_disc.desc": "Sonicall / OxygenSE - Оминовый Лес",
   "itemGroup.mojnovymod.new_group": "Новая Группа",
   "itemGroup.mojnovymod.another_group": "Другая Группа",
-  "itemGroup.mojnovymod.food_group": "Группа Еды"
+  "itemGroup.mojnovymod.food_group": "Группа Еды",
+  "itemGroup.mojnovymod.ore_group": "Группа Руд",
+  "itemGroup.mojnovymod.music_group": "Группа Музыки",
+  "entity.minecraft.villager.magician": "Маг",
+  "subtitles.mojnovymod.ominan_music_disc": "Оминовая Музыкальная Пластинка"
 }
