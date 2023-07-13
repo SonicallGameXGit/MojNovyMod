@@ -12,6 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import org.sgx.mojnovymod.MojNovyMod;
+import org.sgx.mojnovymod.block.custom.DontBreakMeBlock;
 import org.sgx.mojnovymod.block.custom.MagicBlock;
 import org.sgx.mojnovymod.block.custom.OminanOreBlock;
 import org.sgx.mojnovymod.block.custom.TeaCropBlock;
@@ -29,6 +30,8 @@ public class ModBlocks {
     public static final Block DEEPSLATE_OMINAN_ORE = registerBlock("deepslate_ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.DEEPSLATE)), ModItemGroups.ORE_GROUP);
     public static final Block NETHER_OMINAN_ORE = registerBlock("nether_ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_ORE)), ModItemGroups.ORE_GROUP);
     public static final Block END_OMINAN_ORE = registerBlock("end_ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE)), ModItemGroups.ORE_GROUP);
+
+    public static final Block DONT_BREAK_ME_BLOCK = registerBlock("dont_break_me_block", new DontBreakMeBlock(FabricBlockSettings.of(Material.DENSE_ICE)), ModItemGroups.ANOTHER_GROUP);
 
     private static Block registerBlock(String id, Block block) {
         ModItems.registerItem(id, new BlockItem(block, new Item.Settings()));

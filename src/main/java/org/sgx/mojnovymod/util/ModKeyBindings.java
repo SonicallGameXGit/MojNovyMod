@@ -7,6 +7,7 @@ import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
 import org.sgx.mojnovymod.MojNovyMod;
+import org.sgx.mojnovymod.network.ModNetwork;
 
 public class ModKeyBindings {
     public static final KeyBinding MAGIC_KEYBINDING = KeyBindingHelper.registerKeyBinding(new KeyBinding(
@@ -18,8 +19,10 @@ public class ModKeyBindings {
 
     private static void registerKeyBindings() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            if(MAGIC_KEYBINDING.wasPressed() && client.player != null)
+            if(MAGIC_KEYBINDING.wasPressed() && client.player != null) {
                 client.player.sendMessage(Text.literal("Тыкнул значит в магию"));
+                ModNetwork.send(ModNetwork.MAGIC_KEY_PACKET);
+            }
         });
     }
 
