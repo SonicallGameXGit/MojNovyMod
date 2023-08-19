@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "mojnovymod:cup_of_hot_water"
+    },
+    {
+      "item": "mojnovymod:tea"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "mojnovymod:cup_of_tea"
+  }
+}

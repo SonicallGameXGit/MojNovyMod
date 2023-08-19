@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mojnovymod:block/another_block"
+    }
+  }
+}

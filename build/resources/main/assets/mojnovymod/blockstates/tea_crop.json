@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "mojnovymod:block/tea_stage0"
+    },
+    "age=1": {
+      "model": "mojnovymod:block/tea_stage1"
+    },
+    "age=2": {
+      "model": "mojnovymod:block/tea_stage2"
+    },
+    "age=3": {
+      "model": "mojnovymod:block/tea_stage3"
+    },
+    "age=4": {
+      "model": "mojnovymod:block/tea_stage4"
+    },
+    "age=5": {
+      "model": "mojnovymod:block/tea_stage5"
+    }
+  }
+}

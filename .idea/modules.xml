@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MojNovyMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MojNovyMod.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MojNovyMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MojNovyMod.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.sgx.MojNovyMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.sgx.MojNovyMod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.sgx.MojNovyMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.sgx.MojNovyMod.test.iml" />
     </modules>
   </component>
 </project>

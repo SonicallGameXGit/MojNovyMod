@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mojnovymod",
+  "version": "0.0.1",
+  "name": "MojNovyMod",
+  "description": "A tutorial mod for Minecraft Fabric modding series for 1.19.3!",
+  "authors": [
+    "SonicallGameX / OxygenSE"
+  ],
+  "contact": {
+    "website": "https://github.com/SonicallGameXGit/MojNovyMod",
+    "repo": "https://github.com/SonicallGameXGit/MojNovyMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mojnovymod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.sgx.mojnovymod.client.MojNovyModClient"
+    ],
+    "main": [
+      "org.sgx.mojnovymod.MojNovyMod"
+    ]
+  },
+  "mixins": [
+    "mojnovymod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

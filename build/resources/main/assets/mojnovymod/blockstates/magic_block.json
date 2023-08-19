@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "type=true": {
+      "model": "mojnovymod:block/magic_block_scary"
+    },
+    "type=false": [
+      {
+        "model": "mojnovymod:block/magic_block"
+      },
+      {
+        "model": "mojnovymod:block/magic_block_another"
+      }
+    ]
+  }
+}

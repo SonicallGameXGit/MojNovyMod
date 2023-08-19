@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "$": {
+      "item": "mojnovymod:omin"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#$#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "item": "mojnovymod:ominan_music_disc"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2023-08-18 20:12:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2023-08-18 20:11:23 +0200",
+      "minecraft:river": "2023-08-18 20:11:06 +0200",
+      "minecraft:desert": "2023-08-18 20:10:59 +0200",
+      "minecraft:plains": "2023-08-18 20:11:17 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

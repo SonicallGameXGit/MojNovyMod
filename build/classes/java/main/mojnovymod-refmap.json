@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "org/sgx/mojnovymod/mixin/ModPlayerEntityMixin": {
+      "readCustomDataFromNbt": "Lnet/minecraft/class_1657;method_5749(Lnet/minecraft/class_2487;)V",
+      "writeCustomDataToNbt": "Lnet/minecraft/class_1657;method_5652(Lnet/minecraft/class_2487;)V"
+    },
+    "org/sgx/mojnovymod/mixin/MojNovyMixin": {
+      "onHit": "Lnet/minecraft/class_1667;method_7450(Lnet/minecraft/class_1309;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/sgx/mojnovymod/mixin/ModPlayerEntityMixin": {
+        "readCustomDataFromNbt": "Lnet/minecraft/class_1657;method_5749(Lnet/minecraft/class_2487;)V",
+        "writeCustomDataToNbt": "Lnet/minecraft/class_1657;method_5652(Lnet/minecraft/class_2487;)V"
+      },
+      "org/sgx/mojnovymod/mixin/MojNovyMixin": {
+        "onHit": "Lnet/minecraft/class_1667;method_7450(Lnet/minecraft/class_1309;)V"
+      }
+    }
+  }
+}

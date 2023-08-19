@@ -26,10 +26,10 @@ public class ModBlocks {
 
     public static final Block TEA_CROP = registerNoItemBlock("tea_crop", new TeaCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
 
-    public static final Block OMINAN_ORE = registerBlock("ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE)), ModItemGroups.ORE_GROUP);
-    public static final Block DEEPSLATE_OMINAN_ORE = registerBlock("deepslate_ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.DEEPSLATE)), ModItemGroups.ORE_GROUP);
-    public static final Block NETHER_OMINAN_ORE = registerBlock("nether_ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_ORE)), ModItemGroups.ORE_GROUP);
-    public static final Block END_OMINAN_ORE = registerBlock("end_ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE)), ModItemGroups.ORE_GROUP);
+    public static final Block OMINAN_ORE = registerBlock("ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).requiresTool()), ModItemGroups.ORE_GROUP);
+    public static final Block DEEPSLATE_OMINAN_ORE = registerBlock("deepslate_ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)), ModItemGroups.ORE_GROUP);
+    public static final Block NETHER_OMINAN_ORE = registerBlock("nether_ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).requiresTool().sounds(BlockSoundGroup.NETHER_ORE)), ModItemGroups.ORE_GROUP);
+    public static final Block END_OMINAN_ORE = registerBlock("end_ominan_ore", new OminanOreBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).requiresTool()), ModItemGroups.ORE_GROUP);
 
     public static final Block DONT_BREAK_ME_BLOCK = registerBlock("dont_break_me_block", new DontBreakMeBlock(FabricBlockSettings.of(Material.DENSE_ICE)), ModItemGroups.ANOTHER_GROUP);
 
